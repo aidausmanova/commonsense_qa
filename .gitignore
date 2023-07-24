@@ -1,0 +1,10 @@
+__pycache__
+data
+data/
+output
+output/
+wandb/
+src.core.wandb/
+bleurt/
+*.sif
+runs
