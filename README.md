@@ -1,6 +1,7 @@
 # commonsense_qa
 
-This project was created in the scope of the program at the University of Hamburg.
+This project explores T5 Large Language Model (https://huggingface.co/transformers/v2.10.0/model_doc/t5.html).
+The aim of this project is to report the training time and efficiency of the model. This is achieved through infusing external knowledge from ConceptNet Knowledge Graph and fine-tuning the model on the Commonsense Question Answering task. Training time, power consumption and approximate carbon emissions are tracked throughout all training processes via CarbonTracker (https://github.com/lfwa/carbontracker).
 
 ### ConceptNet
 You can download ConceptNet assertions (https://github.com/commonsense/conceptnet5/wiki/Downloads) and save in "data/" folder.
