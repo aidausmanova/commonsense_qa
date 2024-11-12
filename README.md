@@ -1,7 +1,7 @@
 # Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge
 *by Aida Usmanova, Junbo Huang, Debayan Banerjee and Ricardo Usbeck*
 
-This paper was presented at Bonn Sustainable AI conference and is available in [arxiv](https://arxiv.org/abs/2408.01453).
+This paper was presented at Sustainable AI 2023 in Bon and is available [here](https://arxiv.org/abs/2408.01453).
 
 This project explores [T5 Large Language Model](https://huggingface.co/transformers/v2.10.0/model_doc/t5.html).
 The aim of this project is to report the training time and efficiency of the model. This is achieved through infusing external knowledge from ConceptNet Knowledge Graph and fine-tuning the model on the Commonsense Question Answering task. Training time, power consumption and approximate carbon emissions are tracked throughout all training processes via [CarbonTracker](https://github.com/lfwa/carbontracker).
