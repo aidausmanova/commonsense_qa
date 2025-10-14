@@ -17,3 +17,16 @@ To execute the task run `src/core/new_mlm.py` script.
 ### Fine-tuning
 In the end, the T5 model is fine-tuned on the [TellMeWhy dataset](https://stonybrooknlp.github.io/tellmewhy/) for the Commonsense QA task.
 To execute fine-tuning run `src/core/finetune_hf.py` script.
+
+### Citation
+```bibtex
+@misc{usmanova2024Reporting,
+      title={Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge}, 
+      author={Aida Usmanova and Junbo Huang and Debayan Banerjee and Ricardo Usbeck},
+      year={2024},
+      eprint={2408.01453},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2408.01453}, 
+}
+```
